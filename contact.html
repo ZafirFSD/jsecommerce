@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Rubik:ital,wght@0,300..900;1,300..900&family=STIX+Two+Text:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <title>BEAUTY | STORE</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+           <img src="images/logo.png" class="mb-1" alt="logo" style="height: 28px;"> Beauty
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav m-auto my-2 my-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html"> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+            </ul>
+            <a class="nav-link" href="login.html">Login
+            <img src="images/login.png" alt="" height="25px" class="mb-1"> </a>
+          </div>
+        </div>
+    </nav>
+
+
+    <section class="ftco-section">
+        <div class="container">
+         <div class="row justify-content-center">
+            <div class="col-md-6 text-center mb-5">
+            <a class="navbar-brand" style="font-size: 2.4rem;" href="index.html">
+            <img src="images/logo.png" class="mb-1" alt="logo" style="height: 28px;"> Beauty
+            </a>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+        <div class="col-md-10">
+        <div class="wrapper">
+        <div class="row no-gutters">
+        <div class="col-md-6">
+        <div class="contact-wrap w-100 p-lg-5 p-4">
+        <h3 class="mb-4">Send us a message</h3>
+        <div id="form-message-warning" class="mb-4"></div>
+        <form method="POST" id="contactForm" name="contactForm" class="contactForm">
+        <div class="row">
+        <div class="col-md-12">
+        <div class="form-group">
+        <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+        </div>
+        </div>
+        <div class="col-md-12">
+        <div class="form-group">
+        <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+        </div>
+        </div>
+        <div class="col-md-12"></div>
+        <div class="col-md-12">
+            <div class="form-group">
+            <textarea style="resize: none;" name="message" class="form-control" id="message" cols="30" rows="6" placeholder="Message"></textarea>
+        </div>
+        </div>
+        <div class="col-md-12">
+            <div class="form-group">
+            <input type="submit" value="Send Message" class="btn btn-primary">
+            <div class="submitting"></div>
+            </div>
+        </div>
+        </div>
+        </form>
+        </div>
+        </div>
+        <div class="col-md-6 d-flex align-items-stretch">
+        <div class="info-wrap w-100 p-lg-5 p-4 img">
+        <h3>Contact us</h3>
+        <p class="mb-4">We're open for any suggestion or just to have a chat</p>
+        <div class="dbox w-100 d-flex align-items-start">
+            <div class="icon d-flex align-items-center justify-content-center">
+            <span class="fa fa-map-marker"></span>
+        </div>
+            <div class="text pl-3">
+            <p><span> <strong> Address:</strong></span> Wall Street Washington-DC</p>
+            </div>
+        </div>
+
+        <div class="dbox w-100 d-flex align-items-center">
+        <div class="icon d-flex align-items-center justify-content-center">
+        <span class="fa fa-phone"></span>
+        </div>
+
+        <div class="text pl-3">
+            <p><span> <strong>Phone:</strong></span> <a style="text-decoration: none;" class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover text-dark" href="tel://1234567920">+92 342 3456783</a></p>
+        </div>
+
+        </div>
+        <div class="dbox w-100 d-flex align-items-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+            <span class="fa fa-paper-plane"></span>
+            </div>
+            <div class="text pl-3">
+            <p><span> <strong> Email:</strong></span> <a class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover text-dark" style="text-decoration: none;" href="/cdn-cgi/l/email-protection#a9c0c7cfc6e9d0c6dcdbdac0ddcc87cac6c4"><span class="__cf_email__" data-cfemail="365f585059764f594344455f42531855595b">beautystore@gmail.com</span></a></p>
+            </div>
+        </div>
+        <div class="dbox w-100 d-flex align-items-center">
+            <div class="icon d-flex align-items-center justify-content-center">
+            <span class="fa fa-globe"></span>
+            </div>
+            <div class="text pl-3">
+            <p><span> <strong> Website:</strong></span> <a class="link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover text-dark" style="text-decoration: none;" href="#">beautystore.com</a></p>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+            </div>
+            </div>
+          </section>
+
+      
+
+
+        <footer class="bg-light text-dark py-4">
+          <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                  <a class="navbar-brand" href="#">
+                  <img src="images/logo.png" class="mb-1" alt="logo" style="height: 38px;"> Beauty
+                  </a>
+                  <p style="font-weight: 400;"><strong>Beauty Store always satisfies increasing <br> requirements of customers.</strong></p>
+                  <a href=""  class="text-decoration-none text-dark"> <img src="images/location.png" class="mb-1" style="height: 18px;" alt="">&nbsp;WallStreet Washington DC </a>
+                  <p class="mt-1"> <a href=""  class="text-decoration-none text-dark"> <img src="images/email.png" class="mb-1 " style="height: 18px;" alt="">&nbsp;beautystore@gmail.com </a></p>
+                </div>
+      
+            <div class="col-md-4">
+              <h3>Information</h3>
+                <ul class="list-unstyled">
+                    <li><a href="/" class="text-decoration-none text-dark">Home</a></li>
+                    <li><a href="products.html" class="text-decoration-none text-dark">Products</a></li>
+                    <li><a href="contact.html" class="text-decoration-none text-dark">Contact</a></li>
+                    <li><a href="about.html" class="text-decoration-none text-dark">About Us</a></li>
+                    <li><a href="/" class="text-decoration-none text-dark">Customer Care</a></li>
+                </ul>
+            </div>
+      
+                <div class="col-md-2">
+                <h3>Find Us On </h3>
+                <ul class="list-unstyled">
+                    <li><a href="" class="text-decoration-none text-dark">Facebook</a></li>
+                    <li><a href="" class="text-decoration-none text-dark">Twitter</a></li>
+                    <li><a href="" class="text-decoration-none text-dark">Instagram</a></li>
+                    <li><a href="" class="text-decoration-none text-dark">YouTube</a></li>
+                </ul>
+                </div>
+            </div>
+              <hr class="my-4">
+              <div class="text-center"> Copyright &copy; 2024 - Beauty-Store. All rights reserved.</div>
+          </div>
+        </footer>
+        
+    
+
+ 
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
